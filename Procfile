@@ -1,1 +1,1 @@
-web: gunicorn app:app 
+web: gunicorn supportsConnect:app --log-file -
